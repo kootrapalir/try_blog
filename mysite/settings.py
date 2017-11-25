@@ -27,12 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-#email feature
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'q5510780@gmail.com'
-EMAIL_HOST_PASSWORD = "!@#$/^&*()"
-EMAIL_PORT = 465
-EMAIL_USE_TLS = True
+
 
 
 # Application definition
@@ -126,3 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#email feature
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = 'c7494b58d74ad2'
+EMAIL_HOST_PASSWORD = '27d63893473ef1'
+EMAIL_PORT = '2525'
